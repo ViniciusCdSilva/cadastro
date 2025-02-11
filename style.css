@@ -1,0 +1,35 @@
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(243, 0, 0, 0.863);
+    border-radius: 2%;
+    width:20% ;
+    height: 38%; ;
+    
+}
+body{
+
+    background-image: linear-gradient( to bottom,pink,rgb(177, 48, 48),black);
+}
+*{height: 100%;}
+
+p{
+    color: rgb(127, 0, 247);
+    height: 1%;
+    width: 20%;
+    display: grid;
+    justify-content: center;
+   margin-left: 40%;
+   margin-right: 60%;
+   font-size: 30px;
+   
+
+    
+    
+}
